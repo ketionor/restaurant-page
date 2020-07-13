@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');   
+
+// Set your brand colors
+$white: #e8f1f2ff;
+$cyclamen: #e27396ff;
+$green: #9bc53dff;
+$purple: #7d387dff;
+$black: #12130fff;
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto", sans-serif;
+$header-font: "Bebas Neue";
+// $grey-dark: $white;
+// $grey-light: $purple;
+$primary: $black;
+$link: $cyclamen;
+
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
