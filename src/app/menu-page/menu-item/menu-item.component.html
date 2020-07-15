@@ -1,13 +1,18 @@
 <div class="container columns is-centered">
     <div class="card" *ngFor="let menuItem of menuItems">
         <div class="card-image">
-          <figure class="image is-4by3">
+          <figure class="image">
             <img src='{{ menuItem.image }}' alt="Burger">
           </figure>
         </div>
         <div class="card-content">
           <div class="content">
-            <h2><strong>{{ menuItem.name }}</strong></h2>
+
+            <div class="title-and-price">
+                <h2 class='title'>{{ menuItem.name }}</h2>
+                <h3>$14.95</h3> 
+            </div>
+
             <p>{{ menuItem.description }}</p>
             <button class="button is-fullwidth is-rounded">Order Now</button>
           </div>

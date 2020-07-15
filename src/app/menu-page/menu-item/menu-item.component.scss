@@ -5,6 +5,26 @@
 
 }
 
+.title-and-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;;
+
+    title {
+        margin: 0;
+    }
+
+    h2, h3 {
+        margin: 0;
+    }
+
+    h3 {
+        color: lighten($color: $black, $amount: 70%);
+
+    }
+}
+
 .button {
     background-color: lighten($color: $purple, $amount: 20%);
     color: $white;
