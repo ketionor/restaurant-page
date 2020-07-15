@@ -1,0 +1,15 @@
+@import '../../../main-styles.scss';
+
+.container {
+    display: flex;
+
+}
+
+.button {
+    background-color: lighten($color: $purple, $amount: 20%);
+    color: $white;
+}
+.card {
+    max-width: 300px;
+    margin: 20px;
+}
